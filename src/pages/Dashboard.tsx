@@ -31,7 +31,7 @@ export const Dashboard: React.FC = () => {
       <div className="flex flex-col justify-center align-center py-12 px-6 lg:px-8">
         <p className="mt-2 text-center text-sm text-gray font-bold text-lg max-w">
           Rauha is a digital CBT designed for those coping with specific
-          disablities or health challenges.
+          disablities or health challenges
         </p>
       </div>
     </div>
