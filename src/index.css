@@ -18,7 +18,7 @@
   [multiple],
   textarea,
   select {
-    @apply w-full border-lightgray rounded-lg shadow-sm focus:border-indigo focus:ring-indigo;
+    @apply w-full border-lightgray rounded-lg shadow-sm focus:border-blue focus:ring-blue;
   }
 }
 
@@ -49,11 +49,11 @@ a:hover {
 }
 
 body {
-  /* margin: 0; */
-  display: flex;
+  margin: 0;
+  /* display: flex; */
   /* place-items: center; */
-  min-width: 320px;
-  min-height: 100vh;
+  /* min-width: 320px; */
+  /* min-height: 100vh; */
   background-color: #f2f2f2;
 }
 
