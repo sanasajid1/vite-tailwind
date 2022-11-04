@@ -1,12 +1,12 @@
 import Logo from "../assets/image.png";
 
-export const Login: React.FC = () => {
+export const SignUp: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col justify-center py-12 px-6 lg:px-8">
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
         <img className="mx-auto h-36 w-80 rounded-xl" src={Logo} alt="" />
         <h2 className="mt-6 text-center text-2xl font-extrabold text-black">
-          Sign in to your account
+          Let's get your account setup
         </h2>
       </div>
 
@@ -48,16 +48,16 @@ export const Login: React.FC = () => {
                 type="submit"
                 className="w-full flex justify-center py-2 px-4 border border-transparent rounded-2xl shadow-lg text-md font-bold text-black bg-yellow hover:bg-lightyellow hover:border-lightyellow focus:outline-none"
               >
-                Sign in
+                Sign up
               </button>
             </div>
             <p className="mt-2 text-center text-sm text-gray max-w">
-              Don't have an account?
+              Already have an account?
               <a
                 href="#"
                 className="ml-1 text-blue font-medium hover:text-lightblue"
               >
-                Sign up
+                Sign in
               </a>
             </p>
           </form>
